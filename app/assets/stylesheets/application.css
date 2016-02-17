@@ -39,6 +39,10 @@ nav {
 	text-align: center;
 }
 
+.user-login {
+	text-align: right;
+}
+
 
 /* FORM STYLES */
 .well {
@@ -50,7 +54,7 @@ nav {
 .btn {
 	border: 1px solid #f79027;
 	color: #f79027
-	transition: .4s;
+	transition: .4vs;
 }
 
 .btn:hover {

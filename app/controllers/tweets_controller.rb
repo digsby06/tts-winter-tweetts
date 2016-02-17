@@ -33,7 +33,7 @@ private
 		@tweet = Tweet.find(params[:id])
 	end
 	def tweet_params
-		params.require(:tweet).permit(:twee_text, :username)
+		params.require(:tweet).permit(:twee_text, :username, :user_id)
 		
 	end
 
